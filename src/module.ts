@@ -1122,7 +1122,7 @@ class DiscretePanelCtrl extends CanvasPanelCtrl {
     let timeFormat = this.time_format(max - min, timeResolution / 1000);
 
     let isUTC = false;
-    if (this.dashboard.timezone == "utc" ) {
+    if (this.dashboard.timezone == "utc") {
       isUTC = true;
     }
 
